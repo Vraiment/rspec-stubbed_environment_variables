@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Simple RSpec shared context to stub environment variables."
   spec.homepage = "https://github.com/Vraiment/rspec-stubbed_environment_variables"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
