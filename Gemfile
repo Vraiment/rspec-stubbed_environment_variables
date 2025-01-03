@@ -14,3 +14,10 @@ gem 'rubocop-rake', require: false
 gem 'rubocop-rspec', require: false
 
 gem 'ruby-lsp', group: :development
+
+gem 'sorbet', group: :development
+gem 'sorbet-runtime'
+
+group :development, :test do
+  gem 'tapioca', require: false
+end
